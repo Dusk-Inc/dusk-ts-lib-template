@@ -1,0 +1,12 @@
+{
+    "name": "{{entity-name}}-{{lib_name}}",
+    "language": "typescript",
+    "type": "library",
+    "tasks": {
+        "build": "pnpm build",
+        "test": "pnpm test",
+        "add": "pnpm add /{{entity-name}}-{{lib_name}}@workspace:*",
+        "install": "pnpm install",
+        "uninstall": "pnpm remove {{entity-name}}-{{lib_name}}"
+    }
+}
