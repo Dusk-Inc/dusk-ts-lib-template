@@ -8,5 +8,6 @@
         "add": "pnpm add /{{entity-name}}-{{lib_name}}@workspace:*",
         "install": "pnpm install",
         "uninstall": "pnpm remove {{entity-name}}-{{lib_name}}"
-    }
+    },
+    "scopes": []
 }
